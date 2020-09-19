@@ -1,14 +1,12 @@
 .header {
     min-width: 1920px;
     height: 1606px;
- //   border: solid 2px black;
     &_img {
       //  width: 100%;
         position: absolute;
         top: 0;
         left: 0;
         z-index: -1;
-       // max-height: 888px;
     }
     &__subtitle {
         font-family: Proxima Nova Th;
@@ -89,9 +87,6 @@
             font-weight: bold;
             text-align: center;
             color: #4a233d;
-            &--red {
-                color: #da0d70;
-            }
         }
 
     }

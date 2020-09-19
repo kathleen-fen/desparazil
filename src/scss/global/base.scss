@@ -106,3 +106,36 @@
         text-align: center;
     }
 }
+
+.rose-line {
+    position: relative;
+    width: 1920px;
+    height: 7px;
+    background-color: #da0d70;
+}
+
+.mes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 462px;
+    bottom: -40px;
+    width: 591px;
+    height: 111px;
+    border-radius: 33.5px;
+    box-shadow: 0px 12px 12.5px 0.5px #a61360;
+    border: solid 5px #ffffff;
+    background-color: #da0d70;
+    &__text {
+        font-family: Proxima Nova Rg;
+        font-size: 53px;
+        font-weight: normal;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+}
+.red {
+    color: #da0d70;
+}
